@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>DynChart</title>
+
+  <link href="src/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 border-bottom">
+      <h1 class="h2">DynChart V1.0</h1>
+      <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group mr-2">
+          <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.reload()"><span
+              data-feather="refresh-cw"></span> Refresh</button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+
+    <h2>Datenstand <span id="display_last_date"></span></h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-sm">
+        <tr>
+          <th id="tbl_label1">Zeile 1</th>
+          <th id="tbl_label2">Zeile 2</th>
+          <th id="tbl_label3">Zeile 3</th>
+          <th id="tbl_label4">Zeile 4</th>
+          <th id="tbl_label5">Zeile 5</th>
+          <th id="tbl_label6">Zeile 6</th>
+          <th id="tbl_label7">Zeile 7</th>
+          <th id="tbl_label8">Zeile 8</th>
+          <th id="tbl_label9">Zeile 9</th>
+          <th id="tbl_label10">Zeile 10</th>
+        </tr>
+        <tr class="table-warning">
+          <td id="tbl_value1">nAn</td>
+          <td id="tbl_value2">nAn</td>
+          <td id="tbl_value3">nAn</td>
+          <td id="tbl_value4">nAn</td>
+          <td id="tbl_value5">nAn</td>
+          <td id="tbl_value6">nAn</td>
+          <td id="tbl_value7">nAn</td>
+          <td id="tbl_value8">nAn</td>
+          <td id="tbl_value9">nAn</td>
+          <td id="tbl_value10">nAn</td>
+        </tr>
+      </table>
+    </div>
+
+
+  </div>
+
+  <script src="src/d3.v4.min.js"></script>
+  <script src="src/jquery-3.4.1.slim.min.js"></script>
+  <script src="src/feather.min.js"></script>
+  <script src="src/Chart.min.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+
+</html>
