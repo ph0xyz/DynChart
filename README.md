@@ -1,4 +1,5 @@
 # DynChart
+> **⚠️ Warning:** This project is **archived**, no longer under active maintenance, and may contain bugs or security vulnerabilities. Use at your own risk.
 Simple JS LineChart programm.
 
 The Chart is directly generated from a CSV-file (see example file)
